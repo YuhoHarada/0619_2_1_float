@@ -1,0 +1,26 @@
+section{
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    float: left;
+    margin-right: 0px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    shape-outside:  polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+p{
+    line-height: 1.6em;
+}
+
+section:nth-of-type(2) img{
+    float: right;
+}
